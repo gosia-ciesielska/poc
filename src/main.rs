@@ -11,6 +11,6 @@ fn main() {
         .add_plugins(DefaultPlugins)
         .add_plugins(PhysicsPlugins::default())
         .add_plugins(GamePlugin)
-        .insert_resource(Gravity(Vec2::NEG_Y*0.0))
+        .insert_resource(Gravity(Vec2::ZERO))
         .run();
 }
